@@ -501,15 +501,6 @@ export default function DashboardPage() {
             />
 
             <main className="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-6 py-5 sm:py-6">
-              <div className="mb-5 p-3 rounded-xl border-[1.5px] border-dashed border-[#231712] bg-[#231712]/5 text-xs text-[#231712]">
-                <strong>Sumber data.</strong>{' '}
-                <span>
-                  {PROTOTIPE
-                    ? 'Mode prototipe: belum tersambung ke API, jadi dashboard kosong. Ulasan yang Anda input manual hanya tersimpan sementara di browser ini.'
-                    : 'data dari API. analasis AI di coba besok'}
-                </span>
-              </div>
-
               {activeTab === 'tab1' && (
                 <TabSummaryAndSuggestions
                   filtered={filteredReviews}

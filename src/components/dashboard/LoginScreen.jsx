@@ -62,7 +62,7 @@ export default function LoginScreen({ onLoginSuccess }) {
           </div>
           <div>
             <span className="inline-block text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-[#231712] text-[#FAF9F6] mb-1">
-              Akses Terbatas • Lampiran A
+              Akses Terbatas
             </span>
             <h1 className="text-base sm:text-lg font-extrabold tracking-tight text-[#231712] leading-snug">
               Kedai Harapan Djaja Signature
@@ -73,9 +73,6 @@ export default function LoginScreen({ onLoginSuccess }) {
 
         <div className="mt-4 p-3.5 rounded-xl bg-[#231712]/5 border border-[#231712]/20 text-xs leading-relaxed text-[#231712]/85">
           <p className="font-bold text-[#231712]">Gerbang Masuk Kepala Cabang</p>
-          <p className="mt-0.5">
-            Dashboard Voice of Customer dilindungi autentikasi akun Kepala Cabang agar data masukan pelanggan tetap terjaga sesuai standar ISO/IEC 25010.
-          </p>
         </div>
 
         {PROTOTIPE && (
@@ -148,7 +145,7 @@ export default function LoginScreen({ onLoginSuccess }) {
         </form>
 
         <div className="mt-6 pt-4 border-t border-[#231712]/15 flex items-center justify-between text-[11px] text-[#231712]/65">
-          <span>Sistem VoC • Kelompok 7</span>
+          <span>Sistem VoC</span>
           <span>Akses khusus staf cabang</span>
         </div>
       </div>
